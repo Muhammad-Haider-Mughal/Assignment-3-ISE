@@ -1,7 +1,8 @@
 #include <iostream>
 #include <conio.h>
 using namespace std;
-
+ 
+//_getch() reads one character immediately without pressing Enter
 bool takeInput(string& str)
 {
     cout << "Enter string to check (Esc for exit) =  ";
@@ -62,3 +63,4 @@ int main()
 
     return 0;
 }
+
