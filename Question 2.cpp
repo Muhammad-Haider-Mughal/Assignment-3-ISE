@@ -175,8 +175,8 @@ int main()
     cout << "         GAME OVER           " << endl;
     cout << "-----------------------------" << endl;
 
-    // Free memory
     delete[] word;
     delete[] display;
 
 }
+
